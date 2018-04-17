@@ -16,5 +16,10 @@ namespace RibbonExample
         {
             InitializeComponent();
         }
+
+        private void ribbonButton1_DoubleClick(object sender, EventArgs e)
+        {
+            MessageBox.Show("Botao 1 double click");
+        }
     }
 }
